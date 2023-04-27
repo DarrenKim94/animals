@@ -1,7 +1,10 @@
 
 function App() {
+    const handleClick = () => {
+        alert('clicked')
+    }
     return (
-        <div>Show Animals</div>
+        <button onClick={handleClick}>Add Animals</button>
     )
 }
 
